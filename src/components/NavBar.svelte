@@ -2,7 +2,7 @@
 </script>
 
 <nav
-	class=" w-full flex space-between mx-auto  bg-white text-coolgrey-900 border-b-2 border-coolgrey-100 py-4 spacing-x-12"
+	class=" w-full flex space-between mx-auto bg-white text-coolgrey-900 border-b-2 border-coolgrey-100 py-4 spacing-x-12"
 >
 	<div class="flex ml-9 space-x-2">
 		<svg
@@ -26,12 +26,17 @@
 			airbnb
 		</h3>
 	</div>
-	<ul class="text-coolgrey-900 hidden md:flex  md:justify-center gap-12 mt-3 text-lg w-full">
+
+	<ul class="text-coolgrey-900 hidden md:flex md:justify-center gap-12 mt-3 text-lg w-full">
 		<li>
 			<a
 				href="/"
 				on:hover|preventDefault={() => (menu = 1)}
-				class="font-thin hover:border-b-4 pb-8 hover:font-semibold border-red-500">Stays</a
+				class="font-thin
+			   		  hover:border-b-2
+					  pb-8
+					  hover:font-semibold
+					border-red-500">Stays</a
 			>
 		</li>
 		<li>
@@ -50,6 +55,7 @@
 			>
 		</li>
 	</ul>
+
 	<button class="flex md:hidden focus:outline-none absolute top-4 right-4 py-2">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

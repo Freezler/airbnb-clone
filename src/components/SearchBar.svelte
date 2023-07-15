@@ -2,13 +2,14 @@
 	let count = 0;
 </script>
 
-<main class="flex bg-white py-1 px-6 border-b-2 w-full">
-	<div class="flex items-center container">
+<main class="flex bg-white py-2 px-6 border-b-2 w-full">
+	<div class="flex flex-row justify-start">
+		<div class="flex flex-row items-center">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-map bg-slate-900 rounded-t-xl rounded-b-xl z-10 py-3 px-1"
-			width="52"
-			height="52"
+			width="56"
+			height="56"
 			viewBox="0 0 24 24"
 			stroke-width="1.5"
 			stroke="#fffffa"
@@ -23,9 +24,9 @@
 		</svg>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			class="icon icon-tabler icon-tabler-layout-grid bg-zinc-100 rounded-tr-xl rounded-br-xl py-3 -translate-x-2 px-1 pl-3"
+			class="icon icon-tabler icon-tabler-layout-grid bg-zinc-100 rounded-tr-xl rounded-br-xl py-3 -translate-x-2 px-3 pl-3"
 			width="56"
-			height="52"
+			height="54"
 			viewBox="0 0 24 24"
 			stroke-width="1.6"
 			stroke="gray"
@@ -39,9 +40,10 @@
 			<path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
 			<path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
 		</svg>
+		</div>
 	</div>
 
-	<div class="flex items-center my-1 bg-zinc-100 rounded-xl mr-28 pr-2.5 pl-0">
+	<div class="flex items-center justify-center my-1 bg-zinc-100 rounded-xl mr-28 pr-2.5 pl-0">
 		<div class="flex flex-row items-center ml-3">
 			<button on:click={() => (count -= 1)} class="px-3.5 py-1 border border-gray-300 text-red-600 rounded-lg"
 				>-</button>
@@ -52,7 +54,7 @@
 		</div>
 	</div>
 
-	<div class="flex justify-self-end my-1 bg-zinc-100 rounded-xl mr-4">
+	<div class="hidden md:flex justify-end my-1 bg-zinc-100 rounded-xl mr-4">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-filter bg-zinc-100 rounded-xl py-4 px-3"
