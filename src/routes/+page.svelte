@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import NavBar from '../components/NavBar.svelte';
+	import SearchBar from '../components/SearchBar.svelte';
+
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+    const interval = setInterval(() => {
+      console.count('build that thing!!');
+    }, 1000);
+
+    return () => clearInterval(interval);
+  });
+</script>
+
+<NavBar />
+<SearchBar />
