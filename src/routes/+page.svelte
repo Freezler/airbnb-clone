@@ -1,6 +1,5 @@
 <script>
-	import NavBar from '../components/NavBar.svelte';
-	import SearchBar from '../components/SearchBar.svelte';
+	
 
 	import { onMount } from 'svelte';
 
@@ -13,5 +12,10 @@
   });
 </script>
 
-<NavBar />
-<SearchBar />
+
+
+
+
+ 
+
+
