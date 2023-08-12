@@ -7,7 +7,7 @@
 </svelte:head>
 <main class="flex">
 	<div
-		class="m-6 grid max-height-4 place-items-center gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4"
+		class="m-6 grid max-height-4 place-items-center gap-8 grid-cols-1 md:grid-cols-2"
 	>
 		<div class="grid">
 			<div class="overflow-hidden rounded-3xl border border-gray-700">
