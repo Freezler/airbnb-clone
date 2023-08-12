@@ -1,9 +1,13 @@
 <script>
 </script>
+<svelte:head>
+	<title>airbnb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+</svelte:head>
 <main class="flex">
 	<div
-		class="m-6 grid max-height-4 place-items-center gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+		class="m-6 grid max-height-4 place-items-center gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4"
 	>
 		<div class="grid">
 			<div class="overflow-hidden rounded-3xl border border-gray-700">
