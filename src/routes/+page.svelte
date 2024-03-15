@@ -1,15 +1,15 @@
 <script>
 	
 
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 
-	onMount(() => {
-    const interval = setInterval(() => {
-      console.count('build that thing!!');
-    }, 1000);
+	// onMount(() => {
+  //   const interval = setInterval(() => {
+  //     console.count('build that thing!!');
+  //   }, 1000);
 
-    return () => clearInterval(interval);
-  });
+  //   return () => clearInterval(interval);
+  // });
 </script>
 
 
