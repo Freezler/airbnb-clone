@@ -1,8 +1,5 @@
 <script>
-	
-
 	// import { onMount } from 'svelte';
-
 	// onMount(() => {
   //   const interval = setInterval(() => {
   //     console.count('build that thing!!');
@@ -11,11 +8,3 @@
   //   return () => clearInterval(interval);
   // });
 </script>
-
-
-
-
-
- 
-
-
