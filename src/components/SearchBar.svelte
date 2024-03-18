@@ -44,7 +44,7 @@
 			</svg>
 		</div>
 	</section>
-	<div class="ml-auto my-2 hidden select-none align-center rounded-xl md:flex text-gray-600 gap-4">
+	<div class="ml-auto my-2 hidden select-none align-center rounded-xl lg:flex text-gray-600 gap-4">
 		<div class=" my-1 hidden select-none rounded-xl md:flex bg-zinc-100">
 			<div class="m-3 flex flex-row">
 				<select
@@ -69,7 +69,7 @@
 			<div class="m-3 flex flex-row items-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="icon icon-tabler icon-tabler-calendar"
+					class="icon icon-tabler icon-tabler-calendar pr-2"
 					width="32"
 					height="32"
 					viewBox="0 0 24 24"
