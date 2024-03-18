@@ -2,9 +2,9 @@
 	let count = 0;
 </script>
 
-<main class="flex box-border w-full border-b-1 text-lg border-coolgrey-100 bg-white h-18 md:h-18 justify-baseline py-2 mt-0">
-	<div class=" justify-center md:justify-evenly my-auto md:ml-5">
-		<div class="flex select-none flex-row items-center">
+<main class="flex box-border items-center justify-center w-full border-b-1 text-lg border-coolgrey-100 bg-white h-18 md:h-18  py-2 mt-0">
+	<div class=" justify-center md:justify-evenly my-auto md:ml-5 ">
+		<div class="flex select-none flex-row items-center border-1">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-map z-10 ml-5 rounded-b-xl rounded-t-xl bg-slate-900 p-3"

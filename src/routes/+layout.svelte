@@ -14,7 +14,7 @@
 		<SearchBar />
 		<IconSideBar />
 	</section>
-	<section class="container flex items-center justify-center gap-8 w-full">
+	<section class="flex flex-row align-center justify-center">
 		<HomeOverview />
 	</section>
 </main>

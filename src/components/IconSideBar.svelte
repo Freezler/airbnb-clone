@@ -2,8 +2,8 @@
 </script>
 
 <main class="box-border">
-	<div class="border-1 flex h-16 min-w-max flex-row justify-around border-b border-t pl-12">
-		<div class=" flex items-center justify-around gap-20">
+	<div class="border-1 flex h-16 w-[100vw] flex-row justify-around border-b border-t">
+		<div class=" items-center justify-around gap-7 hidden sm:flex">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-airbnb hover:scale-105 hover:bg-slate-400"

@@ -25,7 +25,7 @@
 			width="48"
 			height="48"
 			viewBox="0 0 24 24"
-			stroke-width="1.2"
+			stroke-width="1.8"
 			stroke="#FF5A5F"
 			fill="none"
 			stroke-linecap="round"
@@ -40,7 +40,7 @@
 	</div>
 
 	<ul
-		class="align-center border-box h-19 hidden w-full items-center gap-10 text-lg font-thin  md:flex md:justify-center "
+		class="align-center border-box h-19 hidden w-full items-center gap-10 text-lg font-thin md:flex md:justify-center"
 	>
 		{#each navItems as navItem}
 			<li
