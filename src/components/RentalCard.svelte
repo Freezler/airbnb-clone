@@ -13,7 +13,7 @@
 	/>
 	<div class="p-6 grid grid-rows-sub grid-cols-1 grid-rows-2 grid-flow-row">
 		<h3 class="text-md font-semibold font-sm row-span-1">{rentalObject.name}</h3>
-		<p class="text-sm w-[45ch] text-pretty row-span-1 text-[gray]">
+		<p class="text-sm w-[45ch] text-pretty auto-rows-max text-[gray]">
 			{rentalObject.address}
 		</p>
 		<p class="text-xs font-normal row-span-1 text-center my-2">

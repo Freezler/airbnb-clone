@@ -18,7 +18,7 @@
 <nav
 	class="box-border border-coolgrey-900 full relative flex h-[79px] select-none items-center border-b bg-white font-bold md:justify-center"
 >
-	<div class="ml-[12px] flex items-center md:ml-9 mt-[8px]">
+	<div class="ml-[12px] flex items-center md:ml-9 mt-[0px]">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-brand-airbnb"
@@ -54,7 +54,7 @@
 		{/each}
 	</ul>
 
-	<button class="absolute right-[14px] flex focus:outline-none md:right-8 md:hidden">
+	<button class="absolute right-[14px] top-[24px] flex focus:outline-none md:right-8 md:hidden">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-menu-2"

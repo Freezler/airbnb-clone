@@ -3,10 +3,10 @@
 </script>
 
 <main
-	class="grid grid-cols-[1fr_auto_50px] place-items-center justify-between box-border border-b-1 text-lg border-coolgrey-100 bg-white h-[60px] mt-0"
+	class="grid grid-cols-[1fr_auto_50px] place-items-start justify-between box-border border-b-1 text-lg border-coolgrey-100 bg-white h-[60px] mt-0"
 >
 	<section class=" ">
-		<div class="flex select-none flex-row items-center border-1">
+		<div class="flex select-none items-center justify-center border-1 mt-1 ml-2">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-map z-10 ml-[6px] rounded-md bg-slate-900 p-2"
@@ -26,7 +26,7 @@
 			</svg>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-layout-grid -translate-x-2 rounded-br-md rounded-tr-md bg-zinc-100 p-2  mr-4"
+				class="icon icon-tabler icon-tabler-layout-grid -translate-x-2 rounded-br-md rounded-tr-md bg-zinc-100 p-2"
 				width="48"
 				height="44"
 				viewBox="0 0 24 24"
