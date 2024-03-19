@@ -2,15 +2,15 @@
 </script>
 
 <section class="box-border">
-	<main class="border-1 flex h-16 w-[100vw] flex-row justify-around border-b border-t">
+	<main class="border-1 flex h-10 w-[100vw] flex-row justify-around border-b border-t">
 		<div
 			class=" items-center justify-around gap-7 md:gap-9 hidden sm:flex lg:flex-col lg:absolute left-4 lg:left-6 lg:top-[280px] lg:transition-all"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-airbnb hover:scale-105 hover:bg-slate-400"
-				width="32"
-				height="32"
+				width="28"
+				height="28"
 				viewBox="0 0 24 24"
 				stroke-width="1.2"
 				stroke="currentColor"

@@ -16,17 +16,17 @@
 </script>
 
 <nav
-	class="box-border border-coolgrey-900 full relative flex h-22 select-none items-center border-b bg-white font-bold md:justify-center"
+	class="box-border border-coolgrey-900 full relative flex h-[79px] select-none items-center border-b bg-white font-bold md:justify-center"
 >
-	<div class="ml-4 flex items-center md:ml-9">
+	<div class="ml-[12px] flex items-center md:ml-9 mt-[8px]">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-brand-airbnb"
-			width="48"
-			height="48"
+			width="42"
+			height="50"
 			viewBox="0 0 24 24"
-			stroke-width="1.8"
-			stroke="#FF5A5F"
+			stroke-width="1.2"
+			stroke="#FF3a6C"
 			fill="none"
 			stroke-linecap="round"
 			stroke-linejoin="round"
@@ -36,7 +36,7 @@
 				d="M12 10c-2 0 -3 1 -3 3c0 1.5 1.494 3.535 3 5.5c1 1 1.5 1.5 2.5 2s2.5 1 4.5 -.5s1.5 -3.5 .5 -6s-2.333 -5.5 -5 -9.5c-.834 -1 -1.5 -1.5 -2.503 -1.5c-1 0 -1.623 .45 -2.497 1.5c-2.667 4 -4 7 -5 9.5s-1.5 4.5 .5 6s3.5 1 4.5 .5s1.5 -1 2.5 -2c1.506 -1.965 3 -4 3 -5.5c0 -2 -1 -3 -3 -3z"
 			/>
 		</svg>
-		<h3 class="font-manrope flex items-center text-3xl font-semibold text-red-500">airbnb</h3>
+		<h3 class="font-manrope flex items-center text-xl font-semibold text-red-500">airbnb</h3>
 	</div>
 
 	<ul
@@ -54,14 +54,14 @@
 		{/each}
 	</ul>
 
-	<button class="absolute right-5 top-5 flex py-2 focus:outline-none md:right-8 md:hidden">
+	<button class="absolute right-[14px] flex focus:outline-none md:right-8 md:hidden">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-menu-2"
-			width="33"
-			height="33"
+			width="34"
+			height="28"
 			viewBox="0 0 24 24"
-			stroke-width="2"
+			stroke-width="1.8"
 			stroke="#767676"
 			fill="none"
 			stroke-linecap="round"
@@ -77,11 +77,11 @@
 
 	<img
 		src="https://thispersondoesnotexist.com/"
-		width="52"
-		height="52"
+		width="48"
+		height="48"
 		viewBox="0 0 24 24"
 		stroke="currentColor"
-		class="hidden rounded-full md:flex mr-10"
+		class="hidden rounded-full md:flex mr-6"
 		alt=""
 	/>
 </nav>

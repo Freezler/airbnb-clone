@@ -3,17 +3,17 @@
 </script>
 
 <main
-	class="flex box-border items-center justify-center w-full border-b-1 text-lg border-coolgrey-100 bg-white h-18 md:h-18 py-2 mt-0"
+	class="grid grid-cols-[1fr_auto_50px] place-items-center justify-between box-border border-b-1 text-lg border-coolgrey-100 bg-white h-[60px] mt-0"
 >
-	<section class=" justify-center md:justify-evenly my-auto md:ml-5">
+	<section class=" ">
 		<div class="flex select-none flex-row items-center border-1">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-map z-10 ml-5 rounded-b-xl rounded-t-xl bg-slate-900 p-3"
-				width="56"
-				height="56"
+				class="icon icon-tabler icon-tabler-map z-10 ml-[6px] rounded-md bg-slate-900 p-2"
+				width="44"
+				height="44"
 				viewBox="0 0 24 24"
-				stroke-width="1.5"
+				stroke-width="1"
 				stroke="#fffffa"
 				fill="none"
 				stroke-linecap="round"
@@ -26,9 +26,9 @@
 			</svg>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-layout-grid-translate-x-2 rounded-br-xl rounded-tr-2xl bg-zinc-100 p-3"
-				width="56"
-				height="56"
+				class="icon icon-tabler icon-tabler-layout-grid -translate-x-2 rounded-br-md rounded-tr-md bg-zinc-100 p-2  mr-4"
+				width="48"
+				height="44"
 				viewBox="0 0 24 24"
 				stroke-width="1.6"
 				stroke="#767676"
@@ -115,20 +115,20 @@
 				<div class="w-24 text-center text-gray-700 text-md">{count} Guests</div>
 				<button
 					on:click={() => (count += 1)}
-					class="rounded-lg border border-gray-300 px-3 py-0 text-red-600 bg-wh">+</button
+					class="rounded-lg border border-gray-300 px-3 py-1 ml-0.5 text-red-600 bg-wh">+</button
 				>
 			</div>
 		</div>
 	</div>
-	<div class="relative ml-auto mr-6 before:select-none md:mr-10 my-auto md:flex">
+	<div class=" select-none md:mr-10 my-auto md:flex">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-filter rounded-xl bg-zinc-100 py-4 text-gray-900 ml-auto"
-			width="56"
-			height="56"
+			width="44"
+			height="44"
 			viewBox="0 0 24 24"
 			stroke-width="1.5"
-			stroke="#767676"
+			stroke="#000"
 			fill="none"
 			stroke-linecap="round"
 			stroke-linejoin="round"
