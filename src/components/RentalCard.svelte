@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="grid grid-cols-1 grid-rows-[1fr_1fr_1fr_1fr]] ml-[12px] md:grid-rows-[1fr_1fr_1fr] min-w-[344px] w-full max-w-[800px] place-content-center border-[1px] border-gray-400 rounded-t-2xl rounded-b-2xl h-[440px] mt-[14px] mr-2"
+	class="grid grid-cols-1 grid-rows-[1fr_1fr_1fr_1fr]] ml-[12px] md:grid-rows-[1fr_1fr_1fr] min-w-[344px] w-full max-w-[800px] place-content-center border-[1px] border-gray-400 rounded-t-2xl rounded-b-2xl h-[440px]  mr-2"
 >
 	<img
 		class=" aspect-video object-cover h-40 w-full bg-cover grid-cols-1 grid-rows-1 rounded-t-2xl"
