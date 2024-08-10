@@ -8,7 +8,7 @@
 
 <slot />
 
-<header><nav><NavBar /></nav></header>
+<header><NavBar /></header>
 <main>
 	<section>
 		<SearchBar />
@@ -18,9 +18,3 @@
 		<HomeOverview />
 	</section>
 </main>
-
-<style>
-	* {
-		outline: 1px solid red;
-	}
-</style>

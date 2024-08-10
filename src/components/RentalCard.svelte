@@ -6,6 +6,7 @@
 <div
 	class="   md:grid-rows-[1fr_1fr_1fr] min-w-[250px] w-full max-w-[800px] border-[1px] border-gray-400 rounded-t-2xl rounded-b-2xl h-[372px] place-self-center grid  shadow-lg"
 >
+
 	<img
 		class=" object-cover h-40 w-full object-center rounded-t-2xl"
 		src={rentalObject.images[0]}

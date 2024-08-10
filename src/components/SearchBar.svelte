@@ -65,7 +65,7 @@
 			</div>
 		</div>
 
-		<div class=" my-0 hidden select-none items-center rounded-xl bg-zinc-100 md:flex text-gray-600">
+		<div class=" my-2 hidden select-none items-center rounded-xl bg-zinc-100 md:flex text-gray-600">
 			<div class="m-3 flex flex-row items-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

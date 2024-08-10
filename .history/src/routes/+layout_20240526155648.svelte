@@ -8,7 +8,7 @@
 
 <slot />
 
-<header><nav><NavBar /></nav></header>
+<header><NavBar /></header>
 <main>
 	<section>
 		<SearchBar />
