@@ -44,9 +44,7 @@
 			"phone": "+1122334455"
 		},
 		"images": [
-			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-			"https://example.com/image2.jpg",
-			"https://example.com/image3.jpg"
+			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 		],
 		"reviews": [],
 		"cancellationPolicy": "Strict",
@@ -83,7 +81,7 @@
 		"id": "a15e9e2c-5325-4b52-83b9-c34cf34d9e29",
 		"name": "Cozy Log Cabin in the Mountains",
 		"address": "789 Mountain View Rd, Alpine Retreat, Countryland",
-		"description": "Unwind in this charming log cabin surrounded by breathtaking mountain views.",
+		"description": "nwind in this charming log cabin surrounded by breathtaking mountain views.",
 		"type": "Cabin",
 		"rentalType": "Building",
 		"areaType": "Mountains",
@@ -1094,6 +1092,6 @@
 		],
 		"userVerification": true
 	}
-	
-	
+
+
 ]

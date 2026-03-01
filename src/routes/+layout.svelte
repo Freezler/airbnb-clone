@@ -1,26 +1,38 @@
 <script>
 	import '../app.postcss';
+	import HomeOverview from '../components/HomeOverview.svelte';
+	import IconSideBar from '../components/IconSideBar.svelte';
 	import NavBar from '../components/NavBar.svelte';
 	import SearchBar from '../components/SearchBar.svelte';
-	import IconSideBar from '../components/IconSideBar.svelte';
-	import HomeOverview from '../components/HomeOverview.svelte';
 </script>
 
 <slot />
-
-<header><nav><NavBar /></nav></header>
-<main>
-	<section>
-		<SearchBar />
-		<IconSideBar />
-	</section>
-	<section class="flex flex-row align-center justify-center">
-		<HomeOverview />
-	</section>
-</main>
+<div class="wrapper">
+	<header>
+		<NavBar />
+	</header>
+	<main>
+		<section>
+			<!-- <SearchBar /> -->
+			<IconSideBar />
+		</section>
+		<section class="flex flex-col align-center justify-center">
+			<HomeOverview />
+		</section>
+	</main>
+</div>
 
 <style>
-	* {
-		outline: 1px solid red;
+	.wrapper {
+		max-width: 1200px;
+		margin: 2rem auto;
+		border-radius: var(--border-raduis);
+		overflow:hidden;
+
+	}
+
+	main {
+		/* background: rgba(255, 0, 0, 0.28); */
+
 	}
 </style>

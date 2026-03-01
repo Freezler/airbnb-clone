@@ -1,16 +1,14 @@
 <script>
 </script>
 
-<section class="box-border">
-	<main class="border-1 flex h-10 w-[100vw] flex-row justify-around border-b border-t">
-		<div
-			class=" items-center justify-around gap-7 md:gap-9 hidden sm:flex lg:flex-col lg:absolute left-4 lg:left-6 lg:top-[280px] lg:transition-all"
-		>
+<section class="mx-5">
+	<main class="">
+		<div class="bg-[var(--color)] text-black font-bold px-2 py-2 m-2 rounded-[100vw] grid grid-cols-6 place-items-center justify-items-center [&>svg]:hover:-translate-y-1">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-brand-airbnb hover:scale-105 hover:bg-slate-400"
-				width="28"
-				height="28"
+				class="icon icon-tabler icon-tabler-brand-airbnb"
+				width="32"
+				height="32"
 				viewBox="0 0 24 24"
 				stroke-width="1.2"
 				stroke="currentColor"
@@ -120,59 +118,7 @@
 				<path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
 				<path d="M7 10m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 			</svg>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-brand-tailwind"
-				width="32"
-				height="32"
-				viewBox="0 0 24 24"
-				stroke-width="1.20"
-				stroke="currentColor"
-				fill="none"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-				<path
-					d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z"
-				/>
-			</svg>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-brand-svelte"
-				width="32"
-				height="32"
-				viewBox="0 0 24 24"
-				stroke-width="1.20"
-				stroke="currentColor"
-				fill="none"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-				<path
-					d="M15 8l-5 3l.821 -.495c1.86 -1.15 4.412 -.49 5.574 1.352a3.91 3.91 0 0 1 -1.264 5.42l-5.053 3.126c-1.86 1.151 -4.312 .591 -5.474 -1.251a3.91 3.91 0 0 1 1.263 -5.42l.26 -.16"
-				/>
-				<path
-					d="M8 17l5 -3l-.822 .496c-1.86 1.151 -4.411 .491 -5.574 -1.351a3.91 3.91 0 0 1 1.264 -5.42l5.054 -3.127c1.86 -1.15 4.311 -.59 5.474 1.252a3.91 3.91 0 0 1 -1.264 5.42l-.26 .16"
-				/>
-			</svg>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="icon icon-tabler icon-tabler-brand-vite"
-				width="32"
-				height="32"
-				viewBox="0 0 24 24"
-				stroke-width="1.20"
-				stroke="currentColor"
-				fill="none"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-				<path d="M10 4.5l6 -1.5l-2 6.5l2 -.5l-4 7v-5l-3 1z" />
-				<path d="M15 6.5l7 -1.5l-10 17l-10 -17l7.741 1.5" />
-			</svg>
+
 		</div>
 	</main>
 </section>

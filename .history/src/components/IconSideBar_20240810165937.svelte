@@ -2,9 +2,9 @@
 </script>
 
 <section class="box-border">
-	<main class="border-1 flex h-10 w-[100vw] flex-row justify-around border-b border-t">
+	<main class="border-1 flex h-10 w-[100vw] flex-row justify-around border-b border-t mx-auto">
 		<div
-			class=" 
+			class=" items-center justify-around gap-7 md:gap-9 hidden sm:flex lg:flex-col lg:absolute left-4 lg:left-6 lg:top-[280px] lg:transition-all"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

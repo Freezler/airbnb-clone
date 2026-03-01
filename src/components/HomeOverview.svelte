@@ -4,10 +4,16 @@
 	import RentalCard from '../components/RentalCard.svelte';
 </script>
 
-<div
-	class="w-[100vw] mt-4 gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_1fr] grid-rows-[repeat(4,1fr)] place-items-center mx-4 "
->
-	{#each rentalObjects as rentalObject}
-		<RentalCard {rentalObject} />
-	{/each}
+<div class="wrapper">
+	<div class="w-full grid gap-3 md:grid-cols-2 xl:grid-cols-[1fr_1fr_1fr]">
+		{#each rentalObjects as rentalObject}
+			<RentalCard {rentalObject} />
+		{/each}
+	</div>
 </div>
+
+<style>
+	.wrapper {
+		margin-inline: 2rem;
+	}
+</style>

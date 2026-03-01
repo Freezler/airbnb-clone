@@ -3,26 +3,51 @@
 	export let rentalObject;
 </script>
 
-<div
-	class="   md:grid-rows-[1fr_1fr_1fr] min-w-[250px] w-full max-w-[800px] border-[1px] border-gray-400 rounded-t-2xl rounded-b-2xl h-[372px] place-self-center grid  shadow-lg"
->
-
-	<img
-		class=" object-cover h-40 w-full object-center rounded-t-2xl"
-		src={rentalObject.images[0]}
-		alt={rentalObject.name}
-	/>
-	<div class="p-6 grid grid-rows-sub grid-cols-1 grid-rows-2 grid-flow-row">
-		<h3 class="text-md font-semibold font-sm row-span-1">{rentalObject.name}</h3>
-		<p class="text-sm w-[45ch] text-pretty auto-rows-max text-[gray]">
-			{rentalObject.address}
-		</p>
-		<p class="text-xs font-normal row-span-1 text-center my-4">
-			<span class="text-xl text-pretty text-red-400 ">${rentalObject.price_per_night}</span> / night
-		</p>
-		<button
-			class="border-red-500 border-2 place-self-center text-red font-semibold text-xl uppercase px-4 rounded-2xl w-[220px] h-[48px]"
-			>Book now</button
+<div class="wrapper">
+	<div
+		class="relative card overflow-hidden md:grid-rows-[1fr_1fr] border-[1px] border-red-400 rounded-[2rem] grid shadow-lg"
+	>
+		<p
+			class="font-normal text-xl absolute right-3 text-center top-3 bg-[--color2] p-2 rounded-[100vw] border"
 		>
+			<span class="text-xl text-[lightgoldenrodyellow]">${rentalObject.price_per_night} / PN</span>
+		</p>
+		<img
+			class=" object-cover h-[100%] gap-4 rounded-t-2xl aspect-video w-full hover:scale-[1.02] overflow-hidden transition-all duration-600"
+			src={rentalObject.images}
+			alt={rentalObject.name}
+		/>
+		<div class=" p-2 m-0 grid grid-cols-subgrid grid-flow-row bg-[--color2] text-center">
+			<h3 class="font-medium text-lg">{rentalObject.name}</h3>
+			<p class="w-[34ch] place-self-center text-sm">{rentalObject.description}</p>
+
+			<div class="grid grid-rows-2 justify-evenly">
+				<button
+					class="border-red-500 border-2 place-self-center text-red font-semibold text-xl uppercase px-4 rounded-2xl"
+					>Book now</button
+				>
+				<p
+					class="text-[8px] w-[25ch] text-pretty text-[hsla(0,11%,68%,1)] place-self-center justify-self-end"
+				>
+					{rentalObject.address}
+				</p>
+			</div>
+		</div>
 	</div>
 </div>
+
+<style>
+	:root {
+		--color2: linear-gradient(
+			0deg,
+			oklch(90.335% 0.04296 181.963 / 0.271) 10%,
+			oklch(44.094% 0.26408 275.447 / 0.108) 20%
+		);
+		--color: oklch(70.088% 0.10002 357.373 / 0.267);
+		--color3: oklch(90.088% 1.10002 57.373 / 0.967);
+	}
+
+	.card {
+		background-image: var(--color2);
+	}
+</style>
