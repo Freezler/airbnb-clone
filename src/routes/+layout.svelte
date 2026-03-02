@@ -31,8 +31,8 @@
 
 	}
 
-	main {
-		/* background: rgba(255, 0, 0, 0.28); */
+	/* main {
+		background: rgba(255, 0, 0, 0.28);
 
-	}
+	} */
 </style>

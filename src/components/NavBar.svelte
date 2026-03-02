@@ -16,7 +16,7 @@
 </script>
 
 <nav
-	class="border-red-500 flex justify-between select-none items-center border rounded-[100vw] font-bold px-[1.8rem] py-[0.850rem] mx-[2rem]"
+	class="border-red-500 flex justify-between select-none items-center border rounded-[100vw] font-bold px-[1rem] py-[0.350rem] mx-[2rem]"
 >
 	<div class=" flex justify-center mt-[0px]">
 		<svg
